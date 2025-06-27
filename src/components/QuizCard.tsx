@@ -103,7 +103,7 @@ const QuizCard: React.FC<QuizCardProps> = ({ questionData, onAnswer }) => {
           {!isCorrect && (
             <button
               onClick={() => onAnswer(selectedOption!)}
-              className="mt-2 w-full px-4 py-2 bg-white/90 text-indigo-800 font-bold rounded-lg shadow-md hover:bg-white transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-red-500/80 focus:ring-white"
+              className="mt-2 w-full px-4 py-3 bg-white text-indigo-600 font-semibold rounded-lg shadow-md hover:bg-gray-100 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-300"
             >
               Siguiente Pregunta
             </button>
